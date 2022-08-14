@@ -55,11 +55,11 @@ const encrypt = () => {
 
 const decrypt = () => {
 
+    const fieldText = document.querySelector(`#field-text`).value;
+ 
     noTextFound.forEach(element => {
         element.style.display=`none`;
     });
-
-    const fieldText = document.querySelector(`#field-text`).value;
 
     const decryptText = fieldText.replace(/enter/gi, `e`).replace(/imes/gi, `i`).replace(/ai/gi, `a`).replace(/ober/gi, `o`).replace(/ufat/gi, `ufat`)
 
