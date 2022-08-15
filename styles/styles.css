@@ -41,9 +41,30 @@ body {
 
 .head {
   padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 480px) {
+  .head {
+    flex-direction: column;
+  }
+}
+
+.head h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.8235294118);
+}
+@media screen and (max-width: 480px) {
+  .head h1 {
+    margin: 2rem;
+  }
 }
 
 .main-container {
+  max-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;

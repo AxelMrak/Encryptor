@@ -47,14 +47,34 @@ button,
 
 body {
   font-family: $font-primary;
-  
 }
+
+//Header Styles
 
 .head {
   padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: $sm) {
+    flex-direction: column;
+  }
 }
 
+.head h1 {
+  font-family: $font-primary;
+  font-weight: 300;
+  color: #000000d2;
+  @media screen and (max-width: $sm) {
+    margin: 2rem;
+  }
+}
+
+//Main Container Styles
+
 .main-container {
+  max-height: 100vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -174,8 +194,9 @@ textarea:focus {
     text-align: justify;
 }
 
+//Footer Styles
+
 .foot {
-    
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 1rem;

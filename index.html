@@ -1,39 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>Encrypt for Challenge Alura</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Header -->
     <header class="head">
-        <img src="./img/logo.svg" alt="logo alura" width="40"/>
+      <img src="./img/logo.svg" alt="logo alura" width="40" />
+      <h1>Encryptor</h1>
     </header>
+    <!-- End Header -->
+    <!-- Main container  -->
     <main class="main-container">
-        <section class="encrypt-section">
-            <textarea name="field-text" id="field-text" cols="20" rows="10" placeholder="Insert your text here"></textarea>
-            <div class="encrypt-section-buttons">
-                <button type="button" id="encrypt-btn" class="btn-encrypt-section">Encrypt</button>
-                <button type="button" id="decrypt-btn" class="btn-encrypt-section">Decrypt</button>
-            </div>
-        </section>
-        <section class="text-section">
-            <div class="image-to-replace">
-                <img src="./img/woman-no-text.svg" width="250" class="svg-no-text to-disappear"/>
-                <p id="text-returned"></p>
-            </div>
-            <h3 class="text-section-title to-disappear">No text found</h3>
-            <button type="button" id="copy-btn">Copy text</button>
-        </section>
+      <!-- Section 1 in main container -->
+      <section class="encrypt-section">
+        <textarea
+          name="field-text"
+          id="field-text"
+          cols="20"
+          rows="10"
+          placeholder="Insert your text here"
+        ></textarea>
+        <div class="encrypt-section-buttons">
+          <button type="button" id="encrypt-btn" class="btn-encrypt-section">
+            Encrypt
+          </button>
+          <button type="button" id="decrypt-btn" class="btn-encrypt-section">
+            Decrypt
+          </button>
+        </div>
+      </section>
+      <!-- End Section 1 -->
+      <!-- Section 2 in main container -->
+      <section class="text-section">
+        <div class="image-to-replace">
+          <img
+            src="./img/woman-no-text.svg"
+            width="250"
+            class="svg-no-text to-disappear"
+            alt="Woman with magnifying glass view a diamond"
+          />
+          <p id="text-returned"></p>
+        </div>
+        <h3 class="text-section-title to-disappear">No text found</h3>
+        <button type="button" id="copy-btn">Copy text</button>
+      </section>
+      <!-- End Section 2 -->
     </main>
+    <!-- End Main Container -->
     <!-- FOOTER TEXT START -->
     <footer class="foot">
-        <p>Made with ❤ by Axel Sarmiento</p>
-      </footer>
-      <!-- FOOTER TEXT END -->
+      <p>Made with ❤ by Axel Sarmiento</p>
+    </footer>
+    <!-- FOOTER TEXT END -->
     <!--Scripts JS  -->
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
