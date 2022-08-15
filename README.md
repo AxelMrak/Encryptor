@@ -90,6 +90,7 @@
 	<p>I feel the need to give my thanks to: </p>
 	<ul>
 		<li>Alura Latam for your teaching <a href="app.aluracursos.com" target="_blank">Site Here</a></li>
+		<li>Icons8 for the icons <a href="https://iconos8.es/" target="_blank">Site Here</a></li>
 		<li>My parents and my brother for their constant support.</li>
 		<li>My dear Valentina for always believing in me.</li>
 	</ul>
