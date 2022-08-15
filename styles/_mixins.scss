@@ -1,0 +1,10 @@
+@mixin btn-style {
+    width: 10rem;
+    height: 3rem;
+    padding: 0.5rem;
+    font-size: large;
+    border: 1px solid $color-secondary;
+    border-radius: 20px;
+    font-family: $font-primary;
+    transition: all 1s;
+}
