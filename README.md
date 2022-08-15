@@ -82,7 +82,7 @@
 
 <div id="license">
 	<h2>License</h2>
-	<p>This project use <a href="https://github.com/AxelMrak/Portfolio/blob/main/LICENSE"> MIT LICENSE </a>. </p>
+	<p>This project use <a href="https://github.com/AxelMrak/Encryptor/blob/main/LICENSE"> MIT LICENSE </a>. </p>
 </div>
 
 <div id="thanks">
