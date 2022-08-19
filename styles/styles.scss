@@ -60,6 +60,11 @@ body {
   @media screen and (max-width: $sm) {
     flex-direction: column;
   }
+  @media screen and (max-width: $xl) {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60%;
+  }
 }
 
 .head h1 {
@@ -74,6 +79,7 @@ body {
 //Main Container Styles
 
 .main-container {
+  max-width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -88,6 +94,11 @@ body {
     flex-direction: column;
     row-gap: 3rem;
   }
+  @media screen and (max-width: $xl) {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60%;
+  }
 }
 
 #field-text {
@@ -99,6 +110,10 @@ body {
   text-align: justify;
   @media screen and (max-width: $sm) {
     text-align: center;
+  }
+  @media screen and (max-width: $xl) {
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
 
@@ -170,6 +185,11 @@ textarea:focus {
   }
   @media screen and (max-width: $md) {
     width: 100%;
+  }
+  @media screen and (max-width: $xl) {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 70vw;
   }
 }
 

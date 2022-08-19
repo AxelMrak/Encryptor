@@ -51,6 +51,13 @@ body {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 3300px) {
+  .head {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60%;
+  }
+}
 
 .head h1 {
   font-family: "Inter", sans-serif;
@@ -64,6 +71,7 @@ body {
 }
 
 .main-container {
+  max-width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -84,6 +92,13 @@ body {
     row-gap: 3rem;
   }
 }
+@media screen and (max-width: 3300px) {
+  .main-container {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 60%;
+  }
+}
 
 #field-text {
   border: transparent;
@@ -96,6 +111,12 @@ body {
 @media screen and (max-width: 480px) {
   #field-text {
     text-align: center;
+  }
+}
+@media screen and (max-width: 3300px) {
+  #field-text {
+    font-size: 2rem;
+    font-weight: bold;
   }
 }
 
@@ -188,6 +209,13 @@ textarea:focus {
 @media screen and (max-width: 960px) {
   .text-section {
     width: 100%;
+  }
+}
+@media screen and (max-width: 3300px) {
+  .text-section {
+    font-size: 3rem;
+    font-weight: bold;
+    width: 70vw;
   }
 }
 
