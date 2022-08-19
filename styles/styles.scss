@@ -2,8 +2,6 @@
 @import "_variables";
 @import "_mixins";
 
-@media screen and (max-width: $sm) {
-}
 
 // FORMAT HTML, SOME GET TO NORMALIZE.CSS
 
@@ -60,7 +58,7 @@ body {
   @media screen and (max-width: $sm) {
     flex-direction: column;
   }
-  @media screen and (max-width: $xl) {
+  @media screen and (min-width: $xl) {
     align-items: center;
     margin: 0 auto;
     max-width: 60%;
@@ -79,7 +77,6 @@ body {
 //Main Container Styles
 
 .main-container {
-  max-width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -94,7 +91,7 @@ body {
     flex-direction: column;
     row-gap: 3rem;
   }
-  @media screen and (max-width: $xl) {
+  @media screen and (min-width: $xl) {
     align-items: center;
     margin: 0 auto;
     max-width: 60%;
@@ -111,7 +108,8 @@ body {
   @media screen and (max-width: $sm) {
     text-align: center;
   }
-  @media screen and (max-width: $xl) {
+  @media screen and (min-width: $xl) {
+    max-width: 90%;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -174,6 +172,8 @@ textarea:focus {
   justify-content: center;
   align-items: center;
   line-height: normal;
+  font-size: large;
+  font-weight: 500;
   row-gap: 2rem;
   padding: 3rem;
   border: 1px solid #80808057;
@@ -186,7 +186,7 @@ textarea:focus {
   @media screen and (max-width: $md) {
     width: 100%;
   }
-  @media screen and (max-width: $xl) {
+  @media screen and (min-width: $xl) {
     font-size: 3rem;
     font-weight: bold;
     width: 70vw;

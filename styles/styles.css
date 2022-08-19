@@ -51,7 +51,7 @@ body {
     flex-direction: column;
   }
 }
-@media screen and (max-width: 3300px) {
+@media screen and (min-width: 3300px) {
   .head {
     align-items: center;
     margin: 0 auto;
@@ -71,7 +71,6 @@ body {
 }
 
 .main-container {
-  max-width: 80vw;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -92,7 +91,7 @@ body {
     row-gap: 3rem;
   }
 }
-@media screen and (max-width: 3300px) {
+@media screen and (min-width: 3300px) {
   .main-container {
     align-items: center;
     margin: 0 auto;
@@ -113,8 +112,9 @@ body {
     text-align: center;
   }
 }
-@media screen and (max-width: 3300px) {
+@media screen and (min-width: 3300px) {
   #field-text {
+    max-width: 90%;
     font-size: 2rem;
     font-weight: bold;
   }
@@ -194,6 +194,8 @@ textarea:focus {
   justify-content: center;
   align-items: center;
   line-height: normal;
+  font-size: large;
+  font-weight: 500;
   row-gap: 2rem;
   padding: 3rem;
   border: 1px solid rgba(128, 128, 128, 0.3411764706);
@@ -211,7 +213,7 @@ textarea:focus {
     width: 100%;
   }
 }
-@media screen and (max-width: 3300px) {
+@media screen and (min-width: 3300px) {
   .text-section {
     font-size: 3rem;
     font-weight: bold;
